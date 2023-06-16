@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* ============================== */
+/*
+	Title: pink Color
+*/
+/* ============================== */
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: #ef0d57;
+}
+
+.tooltip.right .tooltip-arrow {
+	border-right-color: #ef0d57;
+}
+
+.tooltip.left .tooltip-arrow {
+	border-left-color: #ef0d57;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #ef0d57;
+}
+
+.tooltip-inner {
+	background-color: #ef0d57;
+}
+
+nav .navbar-inner, .navbar-fixed-top{
+	background: #ef0d57;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	background: #ef0d57;
+}
+.navbar-default{
+	background: #ef0d57;
+}
+
+.modal .send {
+	background:#ef0d57;
+}
+
+ul.social li a:hover i { 
+	color: #ef0d57;
+}
+
+.gallery a{
+	background: #ef0d57;
+}
+
+.gallery h2 a:hover{
+	color: #ef0d57;
+}
+
+.pricing-table li a.activated {
+	color:#ef0d57;
+}
+
+.pricing-table li a:hover {
+	color:#ef0d57;
+}
+
+.accordion-group p a {
+	color:#ef0d57;
+}
+
+.accordion-toggle:hover {
+	color:#ef0d57;
+}
+
+.videos a:hover span i {
+	color:#ef0d57;
+}
+
+.twitter a {
+	color: #ef0d57;
+}
+
+.carousel-control {
+	color: #ef0d57;
+	border: 2px solid #ef0d57;
+}
+
+.discography a:hover span i {
+	color: #ef0d57;
+}
+
+.blog h3 a:hover {
+	color:#ef0d57;
+}
+
+.blog .post-meta a:hover {
+	color:#ef0d57;
+}
+
+.blog .ctablog:hover {
+	background:#ef0d57;
+}
+
+.tour-dates .post-meta-more .btn{
+	background:#ef0d57;
+}

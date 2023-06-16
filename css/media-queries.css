@@ -1,0 +1,106 @@
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+	.ch-item {
+		width: 152px;
+		height: 152px;
+		margin: 4% auto;
+	}	
+
+
+
+
+}
+
+
+
+/* ---------------------------------------------------------------------- */
+/* Portrait tablet to landscape and desktop 979px */
+/* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 979px) { 
+
+	.navbar-fixed-top {
+		margin: 0;
+	}
+
+	header {
+		min-height: 630px;
+	}
+
+
+	.flexheader {
+		margin-top: 130px;
+	}
+
+	ul.pricing-table {
+		width: 100%;
+		margin-bottom:2%;
+	}
+
+	.pricing-table li {
+		padding: 15px 5px;
+	}
+
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 768px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 768px) {
+
+	.ch-item {
+		width: 262px;
+		height: 262px;
+		margin: 4% auto;
+	}
+
+	header {
+		min-height: 430px;
+	}
+
+	.flexheader .slides h1 {
+		font-size: 4em;
+		line-height: 1.5em;
+	}
+
+	.flexheader .slides h2 { 
+		font-size: 1.5em;
+		line-height: 2em;
+	}
+
+	.videos img {
+		margin-bottom: 5%;
+		max-width: 50%;
+	}
+
+	.title h1  {
+		font-size:4em;
+	}
+
+	.title h1 small {
+		font-size: 1em;
+	}
+
+
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 320px) {
+
+}

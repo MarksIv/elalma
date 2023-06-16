@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+/* ============================== */
+/*
+	Title: cyan Color
+*/
+/* ============================== */
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: #00aeef;
+}
+
+.tooltip.right .tooltip-arrow {
+	border-right-color: #00aeef;
+}
+
+.tooltip.left .tooltip-arrow {
+	border-left-color: #00aeef;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #00aeef;
+}
+
+.tooltip-inner {
+	background-color: #00aeef;
+}
+
+nav .navbar-inner, .navbar-fixed-top{
+	background: #00aeef;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	background: #00aeef;
+}
+.navbar-default{
+	background: #00aeef;
+}
+.modal .send {
+	background:#00aeef;
+}
+
+ul.social li a:hover i { 
+	color: #00aeef;
+}
+
+.gallery a{
+	background: #00aeef;
+}
+
+.gallery h2 a:hover{
+	color: #00aeef;
+}
+
+.pricing-table li a.activated {
+	color:#00aeef;
+}
+
+.pricing-table li a:hover {
+	color:#00aeef;
+}
+
+.accordion-group p a {
+	color:#00aeef;
+}
+
+.accordion-toggle:hover {
+	color:#00aeef;
+}
+
+.videos a:hover span i {
+	color:#00aeef;
+}
+
+.twitter a {
+	color: #00aeef;
+}
+
+.carousel-control {
+	color: #00aeef;
+	border: 2px solid #00aeef;
+}
+
+.discography a:hover span i {
+	color: #00aeef;
+}
+
+.blog h3 a:hover {
+	color:#00aeef;
+}
+
+.blog .post-meta a:hover {
+	color:#00aeef;
+}
+
+.blog .ctablog:hover {
+	background:#00aeef;
+}
+
+.tour-dates .post-meta-more .btn{
+	background:#00aeef;
+}

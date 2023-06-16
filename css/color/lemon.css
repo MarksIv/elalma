@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+/* ============================== */
+/*
+	Title: Lemon Color
+*/
+/* ============================== */
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: #78ab08;
+}
+
+.tooltip.right .tooltip-arrow {
+	border-right-color: #78ab08;
+}
+
+.tooltip.left .tooltip-arrow {
+	border-left-color: #78ab08;
+}
+
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #78ab08;
+}
+
+.tooltip-inner {
+	background-color: #78ab08;
+}
+
+nav .navbar-inner, .navbar-fixed-top{
+	background: #78ab08;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	background: #78ab08;
+}
+.navbar-default{
+	background: #78ab08;
+}
+
+.modal .send {
+	background:#78ab08;
+}
+
+ul.social li a:hover i { 
+	color: #78ab08;
+}
+
+.gallery a{
+	background: #78ab08;
+}
+
+.gallery h2 a:hover{
+	color: #78ab08;
+}
+
+.pricing-table li a.activated {
+	color:#78ab08;
+}
+
+.pricing-table li a:hover {
+	color:#78ab08;
+}
+
+.accordion-group p a {
+	color:#78ab08;
+}
+
+.accordion-toggle:hover {
+	color:#78ab08;
+}
+
+.videos a:hover span i {
+	color:#78ab08;
+}
+
+.twitter a {
+	color: #78ab08;
+}
+
+.carousel-control {
+	color: #78ab08;
+	border: 2px solid #78ab08;
+}
+
+.discography a:hover span i {
+	color: #78ab08;
+}
+
+.blog h3 a:hover {
+	color:#78ab08;
+}
+
+.blog .post-meta a:hover {
+	color:#78ab08;
+}
+
+.blog .ctablog:hover {
+	background:#78ab08;
+}
+
+.tour-dates .post-meta-more .btn{
+	background:#78ab08;
+}
