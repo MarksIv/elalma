@@ -7,94 +7,94 @@
 /* ============================== */
 
 .tooltip.top .tooltip-arrow {
-	border-top-color: #cdb380;
+	border-top-color: #69392d;
 }
 
 .tooltip.right .tooltip-arrow {
-	border-right-color: #cdb380;
+	border-right-color: #69392d;
 }
 
 .tooltip.left .tooltip-arrow {
-	border-left-color: #cdb380;
+	border-left-color: #69392d;
 }
 
 .tooltip.bottom .tooltip-arrow {
-	border-bottom-color: #cdb380;
+	border-bottom-color: #69392d;
 }
 
 .tooltip-inner {
-	background-color: #cdb380;
+	background-color: #69392d;
 }
 
 nav .navbar-inner, .navbar-fixed-top{
-	background: #cdb380;
+	background: #69392d;
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-	background: #cdb380;
+	background: #69392d;
 }
 
 .modal .send {
-	background:#cdb380;
+	background:#69392d;
 }
 
 ul.social li a:hover i { 
-	color: #cdb380;
+	color: #69392d;
 }
 
 .gallery a{
-	background: #cdb380;
+	background: #69392d;
 }
 
 .gallery h2 a:hover{
-	color: #cdb380;
+	color: #69392d;
 }
 
 .pricing-table li a.activated {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .pricing-table li a:hover {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .accordion-group p a {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .accordion-toggle:hover {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .videos a:hover span i {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .twitter a {
-	color: #cdb380;
+	color: #69392d;
 }
 
 .carousel-control {
-	color: #cdb380;
-	border: 2px solid #cdb380;
+	color: #69392d;
+	border: 2px solid #69392d;
 }
 
 .discography a:hover span i {
-	color: #cdb380;
+	color: #69392d;
 }
 
 .blog h3 a:hover {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .blog .post-meta a:hover {
-	color:#cdb380;
+	color:#69392d;
 }
 
 .blog .ctablog:hover {
-	background:#cdb380;
+	background:#69392d;
 }
 
 .tour-dates .post-meta-more .btn{
-	background:#cdb380;
+	background:#69392d;
 }

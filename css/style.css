@@ -1079,8 +1079,34 @@ footer .copyright h6 {
 }
 
 
+.no-highlight {
+    color: inherit;
+    text-decoration: none;
+  }
 
+  .custom-paragraph {
+	color: #fff;
+	text-align: center;
+	display: block;
+	line-height: 48px;
+	font-size: 30px;
+	animation: shake 3s infinite;
+  }
 
+  @keyframes shake {
+	0% {
+		transform: translateX(0);
+	}
+
+	33%,
+	66% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
 
 
 
