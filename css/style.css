@@ -176,10 +176,12 @@ ul.social li a i,
 	border: none;
 	border-radius: 0;
 	margin-bottom: 0;
+	opacity: 0.5;
 
 }
 .navbar-default{
-	background: #BCBCBC;
+	background: #69392d;
+	opacity: 0.5;
 }
 .navbar-brand{
 	margin-left: 5px;
@@ -189,7 +191,7 @@ ul.social li a i,
 	margin: 35px 20px 54px 0;
 }
 .navbar-right{
-	margin: 20px 0 20px 0px;
+	margin: 20px 0 20px 0px;	
 } 
 .navbar .nav > li > a {
 	color: #fff;
@@ -198,7 +200,7 @@ ul.social li a i,
 	font-size: 1.3em;
 	position: relative;
 	display: inline-block;
-	margin: 0 11px;
+	margin-top: 9px;
 	outline: none;
 	text-decoration: none;
 	letter-spacing: 2px;
@@ -224,7 +226,7 @@ ul.social li a i,
 	background-color: rgba(0, 0, 0, 0);
 }
 .navbar-default .navbar-toggle:hover .icon-bar{
-	background-color: #000;
+	background-color: #ffffff;
 }
 .navbar-default .navbar-toggle:hover{
 	border-color: #000;
