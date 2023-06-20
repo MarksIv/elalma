@@ -104,7 +104,7 @@ nav a:focus {
 	font-size: 4.8em;
 	text-transform: uppercase;
 	line-height: 1.4em;
-	margin: 1% 0;
+	margin: 50px 0;
 	font-family: 'Chivo', sans-serif;
 }
 
@@ -134,6 +134,7 @@ nav a:focus {
 	color:#fff;
 	font-size:1.9em;
 	font-weight:bold;
+	margin-top: 10px;
 }
 
 .accordion-inner {
@@ -176,12 +177,12 @@ ul.social li a i,
 	border: none;
 	border-radius: 0;
 	margin-bottom: 0;
-	opacity: 0.5;
+	opacity: 1;
 
 }
 .navbar-default{
 	background: #69392d;
-	opacity: 0.5;
+	opacity: 1;
 }
 .navbar-brand{
 	margin-left: 5px;
@@ -760,6 +761,7 @@ ul.pricing-table h2 {
 	vertical-align: -4px;
 }
 
+
 .accordion-group h3 {
 	font-size: 1.8em;
 }
@@ -1093,6 +1095,7 @@ footer .copyright h6 {
 	line-height: 48px;
 	font-size: 30px;
 	animation: shake 3s infinite;
+	margin: 50px;
   }
 
   @keyframes shake {
@@ -1109,6 +1112,31 @@ footer .copyright h6 {
 		transform: translateX(0);
 	}
 }
+
+.big-table {
+	font-size: 30px;
+	/* margin: 20px; */
+	padding: 10px;
+  }
+  
+  .big-table th,
+  .big-table td {
+	padding: 20px;
+	margin-left: 20px;
+	/* white-space: nowrap; */
+  }
+
+  @media screen and (max-width: 768px) {
+	.big-table {
+	  font-size: 16px;
+	}
+  }
+  
+  @media screen and (max-width: 480px) {
+	.big-table {
+	  font-size: 14px;
+	}
+  }
 
 
 

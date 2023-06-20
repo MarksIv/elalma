@@ -28,8 +28,6 @@
 
 nav .navbar-inner, .navbar-fixed-top{
 	background: #69392d;
-	opacity: 0.5;
-
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {

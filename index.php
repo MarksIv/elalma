@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
 
     <!-- Page Title -->
-    <title>Monkey One Page Website Template - </title>
+    <title>El Alma Music Band</title>
 
     <!-- Responsive Metatag -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,13 +49,20 @@
     <link rel="shortcut icon" href="images/favicon.png">
 
     <script src="js/modernizr.custom.js"></script>
+
+    <?php
+    require "database/database.php";
+    setcookie('lang', $_GET['lang']);
+    setcookie('name', $_GET['name']);
+    $connection = createDbConnection();
+    ?>
 </head>
 
 
 <body>
 
  <!-- Main Menu -->
-  <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation" style="opacity: 1;">
        <div class="container">
 		        <div class="navbar-header">
 		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -64,7 +71,15 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
 		          </button>
-		          <a href="#"><img src="img/main-logo.png"  style="width: 100px;"></a>
+
+                  <img src="img/main-logo-text.png"  alt="logo brand" style="
+	display: inline-block;
+	margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+	height: 60px;
+                  ">
+                  <a href="#"></a>
 		        </div>
 		        <div class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right">
@@ -123,7 +138,7 @@
                     <ul class="slides">
                     
                         <li class="col-sm-12 item-caption">
-                			<h1>Concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">The STAGE</a></h1>
+                			<h1>Concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">THE STAGE BY TWO MORE BEERS</a></h1>
                 			<h2>Thursday June 22, 2023 <a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
                                 class="no-highlight">Kaļķu 17</a> / Rīga</h2>
                 		</li>
@@ -380,7 +395,7 @@
            
                 <!-- Title -->
                 <div class="row text-center title">
-                    <h1>Out <small>Repertoire</small></h1>
+                    <h1>Our <small>Repertoire</small></h1>
                     <p class="custom-paragraph">Here, you can choose a song for us to play.<br>Contact us during our break, and we will be happy to play it for you!</p><br>
                 </div>
                 <br>
@@ -390,7 +405,7 @@
                 <div class="accordion" id="accordion-disco">
                     <!-- Accordion item 1 -->
                     <div class="accordion-group">
-                        <div class="accordion-heading">
+                        <div class="accordion-heading" style="height: 20px;">
                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-spanish">                           
                                 <img src="img/plus-icon.png" alt="icon">
                                  Spanish music
@@ -401,18 +416,37 @@
                             <div class="accordion-inner">
                                 <div class="row">
                                     
-                                    <div class="col-md-3">
+                                    <!-- <div class="col-md-3">
                                             <figure>
                                                 <img src="" alt="image">image to be added
                                             </figure>
                                         </a> 
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-2">
                                         <!-- <h3>Songs:</h3> -->
                                         <ol>
-                                            <li>to be added</li>
-                                            <li>to be addedt</li>
-                                            <li>...</li>
+                                        <?php
+                                            $query = "SELECT * FROM songs WHERE genre = 'Spanish'";
+                                            $result = mysqli_query($connection, $query);
+
+                                            if ($result) {
+                                                $i = 1;
+                                                echo '<table class="big-table">';
+                                                echo '<tr><th></th><th>Song</th><th>Artist</th></tr>';
+
+                                                while ($row = mysqli_fetch_assoc($result)) {
+                                                    echo '<tr>';
+                                                    echo '<td>'.$i.'</td>';
+                                                    echo '<td>' . $row['song'] . '</td>';
+                                                    echo '<td>' . $row['artist'] . '</td>';
+                                                    echo '</tr>';
+                                                    $i++;
+                                                }
+                                                echo '</table>';
+                                            } else {
+                                                echo 'Error: ' . mysqli_error($connection);
+                                            }
+                                            ?>
                                         </ol>
                                     </div> 
                                 </div>
@@ -435,18 +469,37 @@
                             <div class="accordion-inner">
                                 <div class="row">
                                     
-                                    <div class="col-md-3">
+                                    <!-- <div class="col-md-3">
                                             <figure>
                                                 <img src="" alt="image">image to be added
                                             </figure>
                                         </a> 
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-2">
                                         <!-- <h3>Songs:</h3> -->
                                         <ol>
-                                            <li>to be added</li>
-                                            <li>to be addedt</li>
-                                            <li>...</li>
+                                        <?php
+                                            $query = "SELECT * FROM songs WHERE genre = 'Rock-n-Roll'";
+                                            $result = mysqli_query($connection, $query);
+
+                                            if ($result) {
+                                                $i = 1;
+                                                echo '<table class="big-table">';
+                                                echo '<tr><th></th><th>Song</th><th>Artist</th></tr>';
+
+                                                while ($row = mysqli_fetch_assoc($result)) {
+                                                    echo '<tr>';
+                                                    echo '<td>'.$i.'</td>';
+                                                    echo '<td>' . $row['song'] . '</td>';
+                                                    echo '<td>' . $row['artist'] . '</td>';
+                                                    echo '</tr>';
+                                                    $i++;
+                                                }
+                                                echo '</table>';
+                                            } else {
+                                                echo 'Error: ' . mysqli_error($connection);
+                                            }
+                                            ?>
                                         </ol>
                                     </div> 
                                 </div>
@@ -469,18 +522,37 @@
                             <div class="accordion-inner">
                                 <div class="row">
                                     
-                                    <div class="col-md-3">
+                                    <!-- <div class="col-md-3">
                                             <figure>
                                                 <img src="" alt="image">image to be added
                                             </figure>
                                         </a> 
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-2">
                                         <!-- <h3>Songs:</h3> -->
                                         <ol>
-                                            <li>to be added</li>
-                                            <li>to be addedt</li>
-                                            <li>...</li>
+                                            <?php
+                                            $query = "SELECT * FROM songs WHERE genre = 'Pop'";
+                                            $result = mysqli_query($connection, $query);
+
+                                            if ($result) {
+                                                $i = 1;
+                                                echo '<table class="big-table">';
+                                                echo '<tr><th></th><th>Song</th><th>Artist</th></tr>';
+
+                                                while ($row = mysqli_fetch_assoc($result)) {
+                                                    echo '<tr>';
+                                                    echo '<td>'.$i.'</td>';
+                                                    echo '<td>' . $row['song'] . '</td>';
+                                                    echo '<td>' . $row['artist'] . '</td>';
+                                                    echo '</tr>';
+                                                    $i++;
+                                                }
+                                                echo '</table>';
+                                            } else {
+                                                echo 'Error: ' . mysqli_error($connection);
+                                            }
+                                            ?>
                                         </ol>
                                     </div> 
                                 </div>
@@ -865,7 +937,7 @@
         <div class="container">
             <!-- Title -->
             <div class="row text-center title">
-                <h1>Upcomming <small>events</small></h1>
+                <h1>Upcoming <small>events</small></h1>
             </div>
             <!-- <div class="row text-center title">
                 <h1>Blog <small> stay up to </small> date</h1>
@@ -952,7 +1024,7 @@
                         <li class="einfo col-md-10">                      
                             <div class="post-date">22 Jun</div>
                             <div class="post-meta-more">
-                                <h3>The STAGE</h3>
+                                <h3>THE STAGE BY TWO MORE BEERS</h3>
                                 <p><a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
                                     class="no-highlight">Kaļķu 17, Rīga</a> </p>
                                 <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
