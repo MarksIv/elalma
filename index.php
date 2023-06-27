@@ -64,7 +64,7 @@
  <!-- Main Menu -->
   <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation" style="opacity: 1;">
        <div class="container">
-		        <div class="navbar-header">
+		        <div class="navbar-header" style="height: 75px;">
 		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 		            <span class="sr-only">Toggle navigation</span>
 		            <span class="icon-bar"></span>
@@ -99,7 +99,7 @@
       <!-- End Main Menu -->
     
     <!-- Modal -->
-        <div class="modal fade" id="register_modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- <div class="modal fade" id="register_modal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -125,28 +125,32 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- end Modal -->
 
     
 
     
     <!-- Header Section -->
-    <header class=" generic parallax-bg1 parallax clearfix" id="menu-home">
+    <header class="generic parallax-bg1 parallax clearfix" id="menu-home">
         <div class="container">
             <div class="row flexheader">            
                     <ul class="slides">
-                    
                         <li class="col-sm-12 item-caption">
-                			<h1>Concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">THE STAGE BY TWO MORE BEERS</a></h1>
-                			<h2>Thursday June 22, 2023 <a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
-                                class="no-highlight">Kaļķu 17</a> / Rīga</h2>
+                			<h1>Concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday July 1, 2023 at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
                 		</li>
                         <li class="col-sm-12 item-caption">
                 			<h1>Concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                			<h2>Friday June 23, 2023 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                			<h2>Saturday July 8, 2023 at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
                                 class="no-highlight">Doma laukums</a> / Rīga</h2>
-                		</li>
+                		</li>                 
+                        <!-- <li class="col-sm-12 item-caption">
+                			<h1>Concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">THE STAGE BY TWO MORE BEERS</a></h1>
+                			<h2>Thursday June 22, 2023 <a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
+                                class="no-highlight">Kaļķu 17</a> / Rīga</h2>
+                		</li> -->
                     </ul>                
             </div>
         </div>
@@ -1021,7 +1025,7 @@
                     <!-- <h2>Upcoming events</h2> -->
                     <ul class="tour-dates">
                         
-                        <li class="einfo col-md-10">                      
+                        <!-- <li class="einfo col-md-10">                      
                             <div class="post-date">22 Jun</div>
                             <div class="post-meta-more">
                                 <h3>THE STAGE BY TWO MORE BEERS</h3>
@@ -1029,10 +1033,19 @@
                                     class="no-highlight">Kaļķu 17, Rīga</a> </p>
                                 <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
                             </div>
-                        </li>
+                        </li> -->
                         
                         <li class="einfo col-md-10">                      
-                            <div class="post-date">23 Jun</div>
+                            <div class="post-date">1 Jul 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">8 Jul 19:00</div>
                             <div class="post-meta-more">
                                 <h3>Doma dārzs</h3>
                                 <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"

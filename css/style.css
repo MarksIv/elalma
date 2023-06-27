@@ -183,6 +183,7 @@ ul.social li a i,
 .navbar-default{
 	background: #69392d;
 	opacity: 1;
+	/* height: 75px; */
 }
 .navbar-brand{
 	margin-left: 5px;
@@ -360,6 +361,9 @@ ul.social li a i,
 
 .parallax-bg1 {
 	background-image: url("../img/bg-01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .parallax {
