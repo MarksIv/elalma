@@ -72,12 +72,11 @@
 		            <span class="icon-bar"></span>
 		          </button>
 
-                  <img src="img/main-logo-text.png"  alt="logo brand" style="
+                  <img src="img/main-logo-1.png"  alt="logo brand" style="
 	display: inline-block;
-	margin-top: 10%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-	height: 60px;
+	margin-top: 0;
+    margin-left: 0;
+	height: 90px;
                   ">
                   <a href="#"></a>
 		        </div>
@@ -168,8 +167,19 @@
             <!-- End Title -->  
 
             <div class="row text-center">
-                <p>to be updaited</p>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper odio id nulla facilisis pretium. Sed ut mi nec nisi cursus dictum vitae in enim. In tempus purus et sapien consequat tincidunt. Mauris mattis placerat suscipit. In a magna justo. Aliquam nunc diam, venenatis in eleifend at, varius nec turpis. Sed euismod gravida gravida. Nulla facilisi. Donec fringilla viverra odio vel tincidunt. Quisque eros odio, pellentesque sed aliquam in, consequat sed augue.</p> -->
+                <p class="description-paragraph">   The cover band El Alma is a fantastic choice for those who appreciate not only a specific style in music. 
+                    The group's goal is to create the widest range of sound by incorporating various styles into their repertoire. 
+                    Rhythms of flamenco rumba, infused with the passion and magic of Spain, intertwine with the energy of rock and roll 
+                    and the genuine joy of pop music, creating an unparalleled sonic journey.
+                </p>
+                <p class="description-paragraph">
+                    El Alma, which translates from Spanish as "The Soul"! Therefore, everything done with El Alma is done with soul! 
+                </p>
+                <p class="description-paragraph">
+                    At any of your events, the band will become the soul of your company! Their performances in restaurants, weddings, 
+                    anniversaries, and corporate events are always memorable and leave a lasting impression! We will find the key to your heart, 
+                    to your soul, so that you can derive pleasure from the sounds of music!
+                </p>
             </div>
 
             <div class="row">

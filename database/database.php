@@ -1,14 +1,14 @@
 <?php
 function createDbConnection() {
-    $servername = "server41";
-    $username = "elalmalv_elalma";
-    $password = "uf1I8)-GsX}a";
-    $dbname = "elalmalv_elalma";
-        
-    // $servername = "localhost";
-    // $username = "root";
-    // $password = "root";
+    // $servername = "server41";
+    // $username = "elalmalv_elalma";
+    // $password = "uf1I8)-GsX}a";
     // $dbname = "elalmalv_elalma";
+        
+    $servername = "localhost";
+    $username = "root";
+    $password = "root";
+    $dbname = "elalmalv_elalma";
 
       $conn = new mysqli($servername, $username, $password, $dbname);
 

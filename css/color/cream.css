@@ -7,94 +7,94 @@
 /* ============================== */
 
 .tooltip.top .tooltip-arrow {
-	border-top-color: #69392d;
+	border-top-color: #813d85;
 }
 
 .tooltip.right .tooltip-arrow {
-	border-right-color: #69392d;
+	border-right-color: #813d85;
 }
 
 .tooltip.left .tooltip-arrow {
-	border-left-color: #69392d;
+	border-left-color: #813d85;
 }
 
 .tooltip.bottom .tooltip-arrow {
-	border-bottom-color: #69392d;
+	border-bottom-color: #813d85;
 }
 
 .tooltip-inner {
-	background-color: #69392d;
+	background-color: #813d85;
 }
 
 nav .navbar-inner, .navbar-fixed-top{
-	background: #69392d;
+	background: #813d85;
 }
 
 .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
-	background: #69392d;
+	background: #813d85;
 }
 
 .modal .send {
-	background:#69392d;
+	background:#813d85;
 }
 
 ul.social li a:hover i { 
-	color: #69392d;
+	color: #813d85;
 }
 
 .gallery a{
-	background: #69392d;
+	background: #813d85;
 }
 
 .gallery h2 a:hover{
-	color: #69392d;
+	color: #813d85;
 }
 
 .pricing-table li a.activated {
-	color:#69392d;
+	color:#813d85;
 }
 
 .pricing-table li a:hover {
-	color:#69392d;
+	color:#813d85;
 }
 
 .accordion-group p a {
-	color:#69392d;
+	color:#813d85;
 }
 
 .accordion-toggle:hover {
-	color:#69392d;
+	color:#813d85;
 }
 
 .videos a:hover span i {
-	color:#69392d;
+	color:#813d85;
 }
 
 .twitter a {
-	color: #69392d;
+	color: #813d85;
 }
 
 .carousel-control {
-	color: #69392d;
-	border: 2px solid #69392d;
+	color: #813d85;
+	border: 2px solid #813d85;
 }
 
 .discography a:hover span i {
-	color: #69392d;
+	color: #813d85;
 }
 
 .blog h3 a:hover {
-	color:#69392d;
+	color:#813d85;
 }
 
 .blog .post-meta a:hover {
-	color:#69392d;
+	color:#813d85;
 }
 
 .blog .ctablog:hover {
-	background:#69392d;
+	background:#813d85;
 }
 
 .tour-dates .post-meta-more .btn{
-	background:#69392d;
+	background:#813d85;
 }

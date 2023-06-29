@@ -104,7 +104,7 @@ nav a:focus {
 	font-size: 4.8em;
 	text-transform: uppercase;
 	line-height: 1.4em;
-	margin: 50px 0;
+	margin: 20px 0;
 	font-family: 'Chivo', sans-serif;
 }
 
@@ -178,12 +178,14 @@ ul.social li a i,
 	border-radius: 0;
 	margin-bottom: 0;
 	opacity: 1;
+	height: 90px;
 
 }
 .navbar-default{
-	background: #69392d;
+	background: #813d85;
 	opacity: 1;
-	/* height: 75px; */
+	height: 90px;
+	padding-left: 10px;
 }
 .navbar-brand{
 	margin-left: 5px;
@@ -295,6 +297,8 @@ ul.social li a i,
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{
 	border: none;
+	background: #813d85;
+	height: 90px;
 }
 
 
@@ -1100,6 +1104,16 @@ footer .copyright h6 {
 	font-size: 30px;
 	animation: shake 3s infinite;
 	margin: 50px;
+  }
+  .description-paragraph {
+	text-align: center;
+	display: block;
+	line-height: 1.7;
+	font-size: 15px;
+	animation: shake 3s infinite;
+	margin: 30px;
+	text-align: center;
+	text-indent: 30px
   }
 
   @keyframes shake {
