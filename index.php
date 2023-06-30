@@ -49,6 +49,16 @@
     <link rel="shortcut icon" href="images/favicon.png">
 
     <script src="js/modernizr.custom.js"></script>
+    <script>
+        // function closeNavbar() {
+        // var navbar = document.querySelector('.navbar-nav');
+        // navbar.style.display = 'none';
+        // }
+
+        // // Attach the click event listener to the navbar element
+        // var navbar = document.querySelector('.navbar-nav');
+        // navbar.addEventListener('click', closeNavbar);
+    </script>
 
     <?php
     require "database/database.php";
@@ -59,10 +69,37 @@
 </head>
 
 
-<body>
+<body id="openNavbar">
 
  <!-- Main Menu -->
-  <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation" style="opacity: 1;">
+
+ <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation">
+       <div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo brand" style="height: 76px;"></a>
+		        </div>
+		        <div class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#menu-home">Home</a></li>
+                    <li><a href="#menu-band" onclick="closeNavbar()">About</a></li>
+		            <li><a href="#menu-discography">Repertoire</a></li>
+		            <li><a href="#menu-gallery">Photos</a></li>
+		            <li><a href="#menu-videos">Videos</a></li>
+		            <li><a href="#menu-events">Events</a></li>
+                    <li><a href="#contacts">contacts</a></li>
+		          </ul>
+		        </div><!--/.nav-collapse -->
+		      </div>
+      </nav>
+
+
+  <!-- <nav class="navbar navbar-default navbar-fixed-top animated fadeInDown delay2" role="navigation" style="opacity: 1;">
        <div class="container">
 		        <div class="navbar-header" style="height: 75px;">
 		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -86,15 +123,15 @@
 		            <li><a href="#menu-band">About</a></li>
 		            <li><a href="#menu-discography">Repertoire</a></li>
 		            <li><a href="#menu-gallery">Photos</a></li>
-		            <!-- <li><a href="#menu-tour">Tickets</a></li> -->
+		            <li><a href="#menu-tour">Tickets</a></li>
 		            <li><a href="#menu-videos">Videos</a></li>
 		            <li><a href="#menu-events">Events</a></li>
-		            <!-- <li><a href="http://themeforest.net/user/coralixthemes" class="external">Store</a></li> -->
+		            <li><a href="http://themeforest.net/user/coralixthemes" class="external">Store</a></li>
                     <li><a href="#contacts">contacts</a></li>
 		          </ul>
-		        </div><!--/.nav-collapse -->
+		        </div>
 		      </div>
-      </nav>
+      </nav> -->
       <!-- End Main Menu -->
     
     <!-- Modal -->
