@@ -172,21 +172,61 @@
         <div class="container">
             <div class="row flexheader">            
                     <ul class="slides">
+                    <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">THE STAGE BY TWO MORE BEERS</a></h1>
+                			<h2>Thursday July 27, at 20:00 2023 <a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
+                                class="no-highlight">Kaļķu 17</a> / Rīga</h2>
+                		</li>
                         <li class="col-sm-12 item-caption">
-                			<h1>Concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                			<h2>Saturday July 1, 2023 at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday July 29, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
                                 class="no-highlight">Doma laukums</a> / Rīga</h2>
                 		</li>
                         <li class="col-sm-12 item-caption">
-                			<h1>Concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                			<h2>Saturday July 8, 2023 at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 3, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
                                 class="no-highlight">Doma laukums</a> / Rīga</h2>
-                		</li>                 
-                        <!-- <li class="col-sm-12 item-caption">
-                			<h1>Concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">THE STAGE BY TWO MORE BEERS</a></h1>
-                			<h2>Thursday June 22, 2023 <a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
-                                class="no-highlight">Kaļķu 17</a> / Rīga</h2>
-                		</li> -->
+                		</li>     
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 5, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
+                        <li class="col-sm-12 item-caption">
+                			<h1>Trio concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 9, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li>   
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 11, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li>    
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 18, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li>    
+                        <li class="col-sm-12 item-caption">
+                			<h1>Trio concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 23, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 26, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
+                        <li class="col-sm-12 item-caption">
+                			<h1>Trio concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 30, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday September 2, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
                     </ul>                
             </div>
         </div>
@@ -1072,29 +1112,113 @@
                     <!-- <h2>Upcoming events</h2> -->
                     <ul class="tour-dates">
                         
-                        <!-- <li class="einfo col-md-10">                      
-                            <div class="post-date">22 Jun</div>
+
+
+                        <!-- <li class="col-sm-12 item-caption">
+                			<h1>Trio concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday August 30, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li> 
+                        <li class="col-sm-12 item-caption">
+                			<h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
+                			<h2>Saturday September 2, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                class="no-highlight">Doma laukums</a> / Rīga</h2>
+                		</li>  -->
+                        
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">27 Jul 20:00</div>
                             <div class="post-meta-more">
-                                <h3>THE STAGE BY TWO MORE BEERS</h3>
+                                <h3>THE STAGE<br>BY TWO MORE BEERS<br>Full band concert</h3>
                                 <p><a href="https://www.google.com/maps?output=search&q=ka%C4%BC%C4%B7u+iela+17&entry=mc&sa=X&ved=2ahUKEwilsJnQ_cn_AhXCmYsKHdliDNMQ0pQJegQIDBAB"
                                     class="no-highlight">Kaļķu 17, Rīga</a> </p>
                                 <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
                             </div>
-                        </li> -->
-                        
+                        </li>
                         <li class="einfo col-md-10">                      
-                            <div class="post-date">1 Jul 19:00</div>
+                            <div class="post-date">29 Jul 19:00</div>
                             <div class="post-meta-more">
-                                <h3>Doma dārzs</h3>
+                                <h3>Doma dārzs<br>Full band concert</h3>
                                 <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
                                     class="no-highlight">Doma laukums, Rīga</a></p>
                                 <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
                             </div>
                         </li>
                         <li class="einfo col-md-10">                      
-                            <div class="post-date">8 Jul 19:00</div>
+                            <div class="post-date">3 Aug 19:00</div>
                             <div class="post-meta-more">
-                                <h3>Doma dārzs</h3>
+                                <h3>Doma dārzs<br>Full band concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">5 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Full band concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">9 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Trio concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">11 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Full band concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">18 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Full band concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">23 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Trio concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">26 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Full band concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">30 Aug 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Trio concert</h3>
+                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
+                                    class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">                      
+                            <div class="post-date">2 Sep 19:00</div>
+                            <div class="post-meta-more">
+                                <h3>Doma dārzs<br>Full band concert</h3>
                                 <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462"
                                     class="no-highlight">Doma laukums, Rīga</a></p>
                                 <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
