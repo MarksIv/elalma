@@ -397,7 +397,7 @@
             </div>
             <!-- End Title -->
 
-            <!-- <div class="row">  
+            <div class="row">  
 
                 <div class="col-md-4">
                     <a href="img/gallery/01.jpg" class="lightbox_image port-item">
@@ -405,12 +405,12 @@
                         <img src="img/gallery/01.jpg" alt="image">
                     </a>
                     <div class="imageinfo">
-                        <h2 class="text-center"><a href="img/gallery/01.jpg" class="lightbox_image"> SATURDAY NIGHT LIVE </a></h2>
+                        <h2 class="text-center"><a href="img/DSC05537.JPG" class="lightbox_image"> SATURDAY NIGHT LIVE </a></h2>
                         <p class="text-center">Etiam porta sem malesuada magna</p>
                     </div>
                 </div>
             
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <a href="img/gallery/02.jpg" class="lightbox_image port-item">
                         <span class="hovers"> <i class="icon-plus-circled"></i> </span>
                         <img src="img/gallery/02.jpg" alt="image">
@@ -431,8 +431,8 @@
                         <h2 class="text-center"><a href="img/gallery/03.jpg" class="lightbox_image" title="Image description"> SATURDAY NIGHT LIVE </a></h2>
                         <p class="text-center">Etiam porta sem malesuada magna</p>
                     </div>
-                </div>
-           </div> -->
+                </div> -->
+           </div>
         </div>
     </section>
     <!-- End Gallery Section -->
