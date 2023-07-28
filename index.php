@@ -402,7 +402,7 @@
                 <div class="col-md-4">
                     <a href="img/gallery/01.jpg" class="lightbox_image port-item">
                         <span class="hovers"> <i class="icon-plus-circled"></i> </span>
-                        <img src="img/gallery/01.jpg" alt="image">
+                        <img src="img/L1010290.JPG" alt="image">
                     </a>
                     <div class="imageinfo">
                         <h2 class="text-center"><a href="img/DSC05537.JPG" class="lightbox_image"> SATURDAY NIGHT LIVE </a></h2>
