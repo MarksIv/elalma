@@ -393,14 +393,13 @@
             <!-- Title -->
             <div class="row text-center title">
                 <h1>Check <small>our</small> photos</h1>
-                <p>to be added</p>
             </div>
             <!-- End Title -->
 
             <div class="row">  
 
                 <div class="col-md-4">
-                    <a href="img/gallery/01.jpg" class="lightbox_image port-item">
+                    <a href="img/L1010290.JPG" class="lightbox_image port-item">
                         <span class="hovers"> <i class="icon-plus-circled"></i> </span>
                         <img src="img/L1010290.JPG" alt="image">
                     </a>
