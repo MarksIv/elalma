@@ -64,13 +64,13 @@ ol, ul {
 a:hover {
 	text-decoration: none;
 	outline: 0;
-	color:#CB0D00;
+	color:#813d85;
 }
-a:focus {
+/* a:focus {
 	outline: 0;
 	text-decoration: none;
-	color:#CB0D00;
-}
+	color:#813d85;
+} */
 a {
 	outline: 0;
 	text-decoration: none;
