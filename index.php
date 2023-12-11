@@ -87,6 +87,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#menu-home">Home</a></li>
+                    <!-- <li><a href="#menu-band" onclick="closeNavbar()">ANNOUNCEMENTS</a></li> -->
                     <li><a href="#menu-band" onclick="closeNavbar()">About</a></li>
                     <li><a href="#menu-discography">Repertoire</a></li>
                     <li><a href="#menu-gallery">Photos</a></li>
@@ -104,44 +105,39 @@
             <div class="row flexheader">
                 <ul class="slides">
                     <li class="col-sm-12 item-caption">
-                        <h1>Trio concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Wednesday August 30, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
+                        <h1>Full band concert at <a href="https://www.facebook.com/photo/?fbid=277837728591897&set=pcb.277839541925049" class="no-highlight">The Stage, by Two More Beers</a></h1>
+                        <h2>Saturday December 16, at 20:00 <a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums</a> / Rīga</h2>
                     </li>
                     <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Friday September 1, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
+                        <h1>NEW YEAR CELEBRATION with full band at <a href="https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758" class="no-highlight">The Stage, by Two More Beers</a></h1>
+                        <h2>Sunday December 31, at 20:00 <a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums</a> / Rīga</h2>
                     </li>
-                     <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Thursday September 7, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-                    <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Saturday September 9, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-                    <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Friday September 15, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-                    <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Thursday September 21, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-                    <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/DOMADARZS/" class="no-highlight">Doma dārzs</a></h1>
-                        <h2>Saturday September 23, at 19:00 <a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-                    <li class="col-sm-12 item-caption">
-                        <h1>Full band concert at <a href="https://www.facebook.com/TheStageBy2MB" class="no-highlight">The Stage, by Two More Beers</a></h1>
-                        <h2>Saturday September 30, at 19:00 <a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums</a> / Rīga</h2>
-                    </li>
-
                 </ul>
             </div>
         </div>
     </header>
     <!-- End Header Section -->
 
+        <!-- Announcments Section -->
+        <section class="band generic" id="menu-band">
+        <div class="container">
+            <!-- Title -->
+            <div class="row text-center title">
+                <h1>ANNOUNCEMENTS</h1>
+            </div>
+            <!-- End Title -->
+
+            <div class="row text-center">
+                <div class="modal-body row text-center title">
+                    <h1><small>NEW YEAR CELEBRATION with full band!</small></h1>
+                    <a href="https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758" target="_blank">
+                        <img src="img/new-year.jpeg" alt="New Year Image" style="max-width: 100%; height: auto;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Announcments Section -->   
 
     <!-- Band Members Section -->
     <section class="band generic" id="menu-band">
@@ -215,7 +211,7 @@
             </div>
         </div>
     </section>
-    <!-- End Band Members Section -->
+    <!-- End Band Members Section --> 
 
     <!-- Discography Section -->
     <section class="discography generic" id="menu-discography">
@@ -1016,7 +1012,54 @@
                             </div>
                         </li>
 
-
+                        <li class="einfo col-md-10">
+                            <div class="post-date">5 Oct 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">
+                            <div class="post-date">21 Oct 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">
+                            <div class="post-date">4 Nov 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">
+                            <div class="post-date">1 Dec 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">
+                            <div class="post-date">16 Dec 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/photo/?fbid=277837728591897&set=pcb.277839541925049" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
+                        <li class="einfo col-md-10">
+                            <div class="post-date">31 Dec 20:00</div>
+                            <div class="post-meta-more">
+                                <h3>The Stage, by Two More Beers<br>NEW YEAR CELEBRATION with full band</h3>
+                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
+                                <a href="https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758" data-toggle="modal" class="btn"><i></i>More info </a>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
