@@ -103,7 +103,7 @@
     <header class="generic parallax-bg1 parallax clearfix" id="menu-home">
         <div class="container">
             <div class="row flexheader">
-                <ul class="slides">
+                <!-- <ul class="slides">
                     <li class="col-sm-12 item-caption">
                         <h1>Full band concert at <a href="https://www.facebook.com/photo/?fbid=277837728591897&set=pcb.277839541925049" class="no-highlight">The Stage, by Two More Beers</a></h1>
                         <h2>Saturday December 16, at 20:00 <a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums</a> / Rīga</h2>
@@ -112,21 +112,18 @@
                         <h1>NEW YEAR CELEBRATION with full band at <a href="https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758" class="no-highlight">The Stage, by Two More Beers</a></h1>
                         <h2>Sunday December 31, at 20:00 <a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums</a> / Rīga</h2>
                     </li>
-                </ul>
+                </ul> -->
             </div>
         </div>
     </header>
     <!-- End Header Section -->
 
         <!-- Announcments Section -->
-        <section class="band generic" id="menu-band">
+        <!-- <section class="band generic" id="menu-band">
         <div class="container">
-            <!-- Title -->
             <div class="row text-center title">
                 <h1>ANNOUNCEMENTS</h1>
             </div>
-            <!-- End Title -->
-
             <div class="row text-center">
                 <div class="modal-body row text-center title">
                     <h1><small>NEW YEAR CELEBRATION with full band!</small></h1>
@@ -136,7 +133,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- Announcments Section -->   
 
     <!-- Band Members Section -->
