@@ -945,121 +945,31 @@
                 <div class="col-md-10">
                     <!-- <h2>Upcoming events</h2> -->
                     <ul class="tour-dates">
-                        <li class="einfo col-md-10">
-                            <div class="post-date">30 Aug 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Trio concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">1 Sep 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        
+                    <?php
+                        $query = "SELECT * FROM events";
+                        $result = mysqli_query($connection, $query);
 
-                        <li class="einfo col-md-10">
-                            <div class="post-date">7 Sep 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">9 Sep 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">15 Sep 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">21 Sept 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">23 Sep 19:00</div>
-                            <div class="post-meta-more">
-                                <h3>Doma dārzs<br>Full band concert</h3>
-                                <p><a href="https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/DOMADARZS/" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">30 Sep 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
+                        if ($result) {               
 
-                        <li class="einfo col-md-10">
-                            <div class="post-date">5 Oct 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">21 Oct 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">4 Nov 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">1 Dec 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/TheStageBy2MB" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">16 Dec 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>Full band concert</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/photo/?fbid=277837728591897&set=pcb.277839541925049" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
-                        <li class="einfo col-md-10">
-                            <div class="post-date">31 Dec 20:00</div>
-                            <div class="post-meta-more">
-                                <h3>The Stage, by Two More Beers<br>NEW YEAR CELEBRATION with full band</h3>
-                                <p><a href="https://goo.gl/maps/zeXbiUTC49AYWkEY7" class="no-highlight">Doma laukums, Rīga</a></p>
-                                <a href="https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758" data-toggle="modal" class="btn"><i></i>More info </a>
-                            </div>
-                        </li>
+                            while ($row = mysqli_fetch_assoc($result)) {
+
+                                $datetimeString = $row['event_date'];
+                                $datetime = new DateTime($datetimeString);
+                                $formattedDate = $datetime->format('d M H:i');
+
+                                echo '<li class="einfo col-md-10">';
+                                echo '<div class="post-date">'.$formattedDate.'</div>';
+                                echo '<div class="post-meta-more">';
+                                echo '<h3>'.$row['event_place'].'<br>'.$row['event_title'].'</h3>';
+                                echo '<p><a href="'.$row['event_location_url'].'" class="no-highlight">'.$row['event_location'].'</a></p>';
+                                echo '<a href="'.$row['event_url'].'" data-toggle="modal" class="btn"><i></i>More info </a>';
+                                echo '</div>';
+                                echo '</li>';
+                            }
+                        } else {
+                            echo 'Error: ' . mysqli_error($connection);
+                        }
+                        ?>       
                     </ul>
                 </div>
             </div>
