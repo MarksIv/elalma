@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jun 20, 2023 at 08:40 PM
+-- Generation Time: Jan 02, 2024 at 07:33 PM
 -- Server version: 5.7.39
 -- PHP Version: 7.4.33
 
@@ -20,6 +20,83 @@ SET time_zone = "+00:00";
 --
 -- Database: `elalmalv_elalma`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `events`
+--
+
+CREATE TABLE `events` (
+  `event_id` int(11) NOT NULL,
+  `event_title` varchar(256) NOT NULL,
+  `event_place` varchar(128) NOT NULL,
+  `event_location` varchar(256) NOT NULL,
+  `event_location_url` varchar(256) DEFAULT NULL,
+  `event_url` varchar(256) DEFAULT NULL,
+  `event_date` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `events`
+--
+
+INSERT INTO `events` (`event_id`, `event_title`, `event_place`, `event_location`, `event_location_url`, `event_url`, `event_date`) VALUES
+(1, 'Trio concert', 'Doma dārzs', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-08-30 19:00:00'),
+(2, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-01 19:00:00'),
+(3, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-07 19:00:00'),
+(4, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-09 19:00:00'),
+(5, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-15 19:00:00'),
+(6, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-21 19:00:00'),
+(7, 'Full band concert', 'Doma dārz', 'Doma laukums, Rīga', 'https://www.google.com/maps/dir/?api=1&destination=56.949409719132%2C24.106149673462', 'https://www.facebook.com/DOMADARZS/', '2023-09-23 19:00:00'),
+(8, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-09-30 20:00:00'),
+(9, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-10-05 20:00:00'),
+(10, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-10-21 20:00:00'),
+(11, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-11-04 20:00:00'),
+(12, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-12-01 20:00:00'),
+(13, 'Full band concert', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/TheStageBy2MB', '2023-12-16 20:00:00'),
+(14, 'NEW YEAR CELEBRATION with full band', 'The Stage, by Two More Beers', 'Līvu laukums, Rīga', '\"https://goo.gl/maps/zeXbiUTC49AYWkEY7', 'https://www.facebook.com/photo?fbid=277353305307006&set=a.159269130448758', '2023-12-31 20:00:00');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `photos`
+--
+
+CREATE TABLE `photos` (
+  `id` int(30) NOT NULL,
+  `photoName` varchar(256) NOT NULL,
+  `photoGroupId` int(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `photos`
+--
+
+INSERT INTO `photos` (`id`, `photoName`, `photoGroupId`) VALUES
+(1, 'L1010290.JPG', 1),
+(2, 'L1010238.JPG', 1),
+(3, 'DSC05540.JPG', 1),
+(4, 'DSC05549.JPG', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `photosGroup`
+--
+
+CREATE TABLE `photosGroup` (
+  `id` int(30) NOT NULL,
+  `photoTitle` varchar(256) NOT NULL,
+  `titlePhotoName` varchar(256) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `photosGroup`
+--
+
+INSERT INTO `photosGroup` (`id`, `photoTitle`, `titlePhotoName`) VALUES
+(1, 'Doma dārzs', 'L1010290.JPG');
 
 -- --------------------------------------------------------
 
@@ -112,6 +189,25 @@ INSERT INTO `songs` (`id`, `song`, `artist`, `genre`) VALUES
 --
 
 --
+-- Indexes for table `events`
+--
+ALTER TABLE `events`
+  ADD PRIMARY KEY (`event_id`);
+
+--
+-- Indexes for table `photos`
+--
+ALTER TABLE `photos`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `photoGroupId` (`photoGroupId`);
+
+--
+-- Indexes for table `photosGroup`
+--
+ALTER TABLE `photosGroup`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `songs`
 --
 ALTER TABLE `songs`
@@ -122,10 +218,38 @@ ALTER TABLE `songs`
 --
 
 --
+-- AUTO_INCREMENT for table `events`
+--
+ALTER TABLE `events`
+  MODIFY `event_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT for table `photos`
+--
+ALTER TABLE `photos`
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `photosGroup`
+--
+ALTER TABLE `photosGroup`
+  MODIFY `id` int(30) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
 -- AUTO_INCREMENT for table `songs`
 --
 ALTER TABLE `songs`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `photosGroup`
+--
+ALTER TABLE `photosGroup`
+  ADD CONSTRAINT `photosgroup_ibfk_1` FOREIGN KEY (`id`) REFERENCES `photos` (`photoGroupId`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
