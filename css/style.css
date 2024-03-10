@@ -444,6 +444,9 @@ header {
 .ch-img-4 { 
 	background-image: url(../img/band-04.jpg);
 }
+.ch-img-5 { 
+	background-image: url(../img/band-05.jpeg);
+}
 .ch-info {
 	position: absolute;
 	background: rgba(100,100,100, 0.6);
