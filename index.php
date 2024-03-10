@@ -172,7 +172,6 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-md-3">
                     <div class="ch-item ch-img-2">
                         <div class="ch-info">
@@ -201,6 +200,16 @@
                             <div class="member text-center">
                                 <h3>Marks Ivanovs</h3>
                                 <p>Bass</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="ch-item ch-img-5">
+                        <div class="ch-info">
+                            <div class="member text-center">
+                                <h3>Igors Peškovs</h3>
+                                <p>Keys</p>
                             </div>
                         </div>
                     </div>
@@ -724,7 +733,7 @@
                     <div class="accordion" id="accordion">
 
                         <!-- Accordion item 1 -->
-                        <div class="accordion-group">
+                        <div class="accordion-group" hidden>
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                     <img src="img/plus-icon.png" alt="icon">Living Things - Released: 2013
@@ -763,7 +772,7 @@
                         <!-- End Accordion item 1 -->
 
                         <!-- Accordion item 2 -->
-                        <div class="accordion-group">
+                        <div class="accordion-group" hidden>
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                     <img src="img/plus-icon.png" alt="icon"> Living Things - Released: 2009
@@ -801,13 +810,13 @@
                         <!-- End Accordion item 2 -->
 
                         <!-- Accordion item 3 -->
-                        <div class="accordion-group">
+                        <div class="accordion-group" hidden>
                             <div class="accordion-heading">
                                 <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                     <img src="img/plus-icon.png" alt="icon"> Living Things - Released: 2009
                                 </a>
                             </div>
-                            <div id="collapseThree" class="accordion-body collapse">
+                            <div id="collapseThree" class="accordion-body collapse" hidden>
                                 <!--Inner info -->
                                 <div class="accordion-inner">
                                     <div class="row-fluid">
@@ -827,14 +836,14 @@
                         <!-- End Accordion item 3 -->
 
                     </div>
-                    <!-- End Accordion -->
+                    <!-- End Accordion --> 
                 </div>
 
-                <div class="col-md-6">
+                <!-- <div class="col-md-12" hidden>
                     <div class="video">
-                        <iframe height="335" src="http://player.vimeo.com/video/38101676?title=0&amp;byline=0&amp;portrait=0&amp;color=4584be"></iframe>
+                        <iframe height="335" src="http://www.youtube.com/embed/ZXTQFSlX8IA?autoplay=1"></iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>
@@ -849,77 +858,12 @@
             <!-- Title -->
             <div class="row text-center title">
                 <h1>Enjoy <small>the band</small> videos </h1>
-                <p>to be added</p>
             </div>
             <!-- End Title -->
-
-            <div class="row">
-                <div id="myCarousel" class="carousel slide col-md-12">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-
-                        <!-- <div class="active item row">
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                          </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        
-                    </div>
-
-                    <div class="item row">
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        <div class="col-md-3">
-                          <a href="http://www.youtube.com/embed/L9szn1QQfas?autoplay=1" class="iframe">
-                            <img src="img/videos/01.jpg" alt="image">
-                            <span> <i class="icon-play"></i> </span>
-                            </a>  
-                        </div>
-                        
-                    </div> -->
-
-                    </div>
-                    <!-- Carousel nav -->
-                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            <div class="video-container">
+                <div class="video" style="display: flex; justify-content: center; align-items: center; margin: 0;">
+                    <iframe width="760" height="515" src="http://www.youtube.com/embed/ZXTQFSlX8IA?autoplay=1" frameborder="0" allowfullscreen></iframe>
                 </div>
-            </div>
         </div>
     </section>
     <!-- End Videos Section -->
