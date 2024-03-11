@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 section.generic {
-	padding: 70px 0 130px 0;
+	padding: 70px 0 0 0;
 }
 
 nav a:hover,
@@ -126,7 +126,7 @@ nav a:focus {
 }
 
 .accordion-group {
-	border:1px solid #000;
+	/* border:1px solid #000; */
 	border-radius: 0;
 }
 
@@ -139,7 +139,7 @@ nav a:focus {
 
 .accordion-inner {
 	padding: 9px 15px;
-	border-top: 1px solid #000;
+	/* border-top: 1px solid #000; */
 }
 
 .accordion-toggle:hover {
@@ -445,7 +445,7 @@ header {
 	background-image: url(../img/band-04.jpg);
 }
 .ch-img-5 { 
-	background-image: url(../img/band-05.jpeg);
+	background-image: url(../img/band-05.JPG);
 }
 .ch-info {
 	position: absolute;
@@ -769,7 +769,7 @@ ul.pricing-table h2 {
 
 
 .accordion-group h3 {
-	font-size: 1.8em;
+	font-size: 3em;
 }
 
 
