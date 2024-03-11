@@ -236,7 +236,7 @@
                 <!-- Accordion item 1 -->
                 <div class="accordion-group">
                     <div class="accordion-heading text-center" style="padding: 15px;">
-                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-spanish" style="color: white; font-size: 38px; font-family: 'Quicksand', sans-serif">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-spanish" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
                        <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Spanish music</a>
                     </div>
                     <div id="collapseOne-spanish" class="accordion-body collapse">
@@ -280,7 +280,7 @@
                 <!-- Accordion item 2 -->
                 <div class="accordion-group text-center">
                     <div class="accordion-heading collapsed" style="padding: 15px;">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-rock" style="color: white; font-size: 38px; font-family: 'Quicksand', sans-serif">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-rock" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
                             <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Rock 'n' Roll &nbsp;</a>
                     </div>
                     <div id="collapseOne-rock" class="accordion-body collapse">
@@ -324,7 +324,7 @@
                 <!-- Accordion item 3 -->
                 <div class="accordion-group text-center">
                     <div class="accordion-heading collapsed" style="padding: 15px;">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-pop" style="color: white; font-size: 38px; font-family: 'Quicksand', sans-serif">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-pop" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
                             <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Popular hits &nbsp;</a>
                     </div>
                     <div id="collapseOne-pop" class="accordion-body collapse">
