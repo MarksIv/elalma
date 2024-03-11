@@ -235,13 +235,11 @@
             <div class="accordion" id="accordion-disco">
                 <!-- Accordion item 1 -->
                 <div class="accordion-group">
-                    <div class="accordion-heading" style="height: 20px;">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-spanish">
-                            <img src="img/plus-icon.png" alt="icon">
-                            Spanish music
-                        </a>
+                    <div class="accordion-heading text-center" style="padding: 15px;">
+                    <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-spanish" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
+                       <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Spanish music</a>
                     </div>
-                    <div id="collapseOne-spanish" class="accordion-body collapse in">
+                    <div id="collapseOne-spanish" class="accordion-body collapse">
                         <!--Inner info -->
                         <div class="accordion-inner">
                             <div class="row">
@@ -280,14 +278,12 @@
                 </div>
                 <!-- End Accordion item 1 -->
                 <!-- Accordion item 2 -->
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-rock">
-                            <img src="img/plus-icon.png" alt="icon">
-                            Rock 'n' Roll
-                        </a>
+                <div class="accordion-group text-center">
+                    <div class="accordion-heading collapsed" style="padding: 15px;">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-rock" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
+                            <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Rock 'n' Roll &nbsp;</a>
                     </div>
-                    <div id="collapseOne-rock" class="accordion-body collapse in">
+                    <div id="collapseOne-rock" class="accordion-body collapse">
                         <!--Inner info -->
                         <div class="accordion-inner">
                             <div class="row">
@@ -326,14 +322,12 @@
                 </div>
                 <!-- End Accordion item 2 -->
                 <!-- Accordion item 3 -->
-                <div class="accordion-group">
-                    <div class="accordion-heading">
-                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-pop">
-                            <img src="img/plus-icon.png" alt="icon">
-                            Popular hits
-                        </a>
+                <div class="accordion-group text-center">
+                    <div class="accordion-heading collapsed" style="padding: 15px;">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion-disco" href="#collapseOne-pop" style="color: white; font-size: 30px; font-family: 'Quicksand', sans-serif">
+                            <img src="img/plus-icon.png" alt="icon" style="padding-right: 5px;">Popular hits &nbsp;</a>
                     </div>
-                    <div id="collapseOne-pop" class="accordion-body collapse in">
+                    <div id="collapseOne-pop" class="accordion-body collapse">
                         <!--Inner info -->
                         <div class="accordion-inner">
                             <div class="row">
