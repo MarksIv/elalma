@@ -881,7 +881,7 @@
                     <!-- <h2>Upcoming events</h2> -->
                     <ul class="tour-dates">
                     <?php
-                        $query = "SELECT * FROM events ORDER BY event_date DESC";
+                        $query = "SELECT * FROM events ORDER BY event_date ASC";
                         $result = mysqli_query($connection, $query);
 
                         if ($result) {               
