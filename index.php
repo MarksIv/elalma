@@ -943,7 +943,7 @@
 
             <div class="row">
                 <div class="col-md-12 copyright">
-                    <h6>©2013 Monkey Music Band. All rights reserved.</h6>
+                    <!-- <h6>©2013 Monkey Music Band. All rights reserved.</h6> -->
                 </div>
             </div>
         </div>
